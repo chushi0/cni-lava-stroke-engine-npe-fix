@@ -1,0 +1,10 @@
+# build output (classes, jars, launch logs)
+build/
+
+# compiled classes
+*.class
+
+# IDE metadata
+.idea/
+.vscode/
+*.iml

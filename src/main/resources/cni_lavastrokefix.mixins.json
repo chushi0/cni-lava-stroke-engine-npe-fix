@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8.5",
+  "package": "cc.cszt0.cnilavastrokefix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LavaStrokeEngineRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

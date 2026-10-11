@@ -1,0 +1,12 @@
+# Shell scripts must keep LF line endings: a CRLF checkout breaks Git Bash on Windows with
+# "$'\r': command not found".
+*.sh text eol=lf
+
+# Sources and metadata stay LF as well
+*.java text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Build output is always binary
+*.jar binary
